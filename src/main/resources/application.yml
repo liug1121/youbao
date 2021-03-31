@@ -1,0 +1,15 @@
+server:
+  port: 8787
+#  port: 8889
+
+spring: 
+  profiles:
+    active: pro
+---
+spring: 
+  profiles: pro
+  
+---
+spring: 
+  profiles: dev
+  
